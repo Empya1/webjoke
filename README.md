@@ -10,4 +10,4 @@ Uses *sv443 api* at https://sv443.net/jokeapi/v2/
 
 ## **Authors**
 
-This project was made by #EmPya Tech#
+This project was made by **EmPya Tech**
