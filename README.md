@@ -7,3 +7,7 @@ Simple web application for generating jokes.
 ## **Project Details**
 
 Uses *sv443 api* at https://sv443.net/jokeapi/v2/
+
+## **Authors**
+
+This project was made by #EmPya Tech#
