@@ -54,7 +54,7 @@ function getJoke(custom_url){
                     category.text("category : " + jsondata.category+"")
                 
                     if (jsondata.type == "twopart") {
-                        joke_setup.text(jsondata.setup);
+                        joke_setup.show(); joke_setup.text(jsondata.setup);
                         delivery.show();
                         delivery.text(jsondata.delivery)
                     }else{
