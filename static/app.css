@@ -1,0 +1,81 @@
+
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius:25px;
+}
+
+.round-25{
+    border-radius: 25px;
+}
+
+.blur{
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.5);
+}
+
+.fixed-right{
+    
+}
+
+.round-top{
+    border-radius: 25px 25px 0px 0px;
+}
+
+.round-nav {
+    border-radius:20px;
+}
+
+.hidden-btn{
+    display: none;
+}
+
+.riot{
+    font-family: "Protest Riot", san-serif;
+    font-weight: 400;
+    
+}
+
+.bg-white{
+    background: #ffffff;
+}
+
+.outline-no{
+    border:none;
+}
+
+.outline-no:hover{
+    border:none;
+}
+
+.underline{
+    font-weight: bolder;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:hover{
+    border: none;
+}
+
+.vertical-align{
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width:1024px){
+   .hidden-btn{
+       display:block;
+   }
+   
+}
+
+@media only screen and (min-width:768px){
+    
+   .fixed-right{
+       right:0;
+       position: fixed;
+   }
+}
