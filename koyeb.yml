@@ -1,0 +1,15 @@
+# koyeb.yaml
+kind: Application
+spec:
+  services:
+    - name: my-flask-app
+      type: web
+      build:
+        commands:
+          - pip install -r requirements.txt
+      runtime: python
+      port: 8000
+      scale: 1
+      env:
+        - name: PORT
+          value: "8000"
