@@ -14,3 +14,5 @@ def index():
 def notfound(error):
    return render_template("error.html", link=link)
    
+
+app.run()
